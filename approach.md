@@ -10,3 +10,4 @@
 [06/23/23-18:02] Then I can thing about how the code will look
 [06/23/23-18:50] I've got a good idea of what I want the screens to look like for now so I start making those first
 [06/23/23-19:32] Added the basic outline for the main screen but I'd like to add some more stuff for making it look pretty
+[06/23/23-20:30] decided to add an exit screen, and a nice looking header
