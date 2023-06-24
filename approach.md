@@ -8,3 +8,5 @@
 [06/23/23-18:01] Making the buff document I should make the character class
 [06/23/23-18:02] first things first, I should work on a wireframe for the terminal interface
 [06/23/23-18:02] Then I can thing about how the code will look
+[06/23/23-18:50] I've got a good idea of what I want the screens to look like for now so I start making those first
+[06/23/23-19:32] Added the basic outline for the main screen but I'd like to add some more stuff for making it look pretty
