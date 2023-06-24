@@ -11,3 +11,7 @@
 [06/23/23-18:50] I've got a good idea of what I want the screens to look like for now so I start making those first
 [06/23/23-19:32] Added the basic outline for the main screen but I'd like to add some more stuff for making it look pretty
 [06/23/23-20:30] decided to add an exit screen, and a nice looking header
+[06/23/23-20:40] Now that I have the menu_screen made I want to start on the load_game screen
+[06/23/23-20:41] That will force me to have to learn how to store and modify information using python
+[06/23/23-20:42] maybe I can also store meta information in the log, I'm thinking something like SQL but there might be a better way
+[06/23/23-21:05] after looking over it I'll probably go with SQLlite
