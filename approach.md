@@ -15,3 +15,16 @@
 [06/23/23-20:41] That will force me to have to learn how to store and modify information using python
 [06/23/23-20:42] maybe I can also store meta information in the log, I'm thinking something like SQL but there might be a better way
 [06/23/23-21:05] after looking over it I'll probably go with SQLlite
+[06/25/23-11:23] I'm thinking of what the modifiers class needs to keep recorded
+[06/25/23-11:24] It needs the name, the type, as in buff or debuff, the effect(?)
+[06/25/23-11:24] not sure if I need to worry about the effect right now cause there's a bunch of different ones
+[06/25/23-11:24] maybe just for now, just add description?
+[06/25/23-11:25] then I don't need to worry about the 'effects' just keeping the description logged
+[06/25/23-11:26] something I will include is duration, just cause then I can keep track of the buffs current duration
+[06/25/23-11:27] actually, is that something I should keep in the character class?
+[06/25/23-11:27] maybe I should have a inbetween class?
+[06/25/23-11:28] That could be and effect class, which would contain buff and then the time of the buff right? or maybe I should have a duration class?
+[06/25/23-11:29] Each class should hold to the single responsibility principle, so I would have effect, which handles duration and mods where a mod could be a buf or debuff
+[06/25/23-11:30] dang lol, I'm gonna need to make another flowchart just for the data structure ugh
+[06/25/23-11:48] I added a few more files, duration, and effects
+[06/25/23-11:48] I'm going to use effects as a container for duration and modifiers. That way I can keep track of the duration for each seperate modifier.
