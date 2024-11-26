@@ -1,12 +1,12 @@
+import effects
 # Module used for recording player information
 
 class Character:
 
     ''' When an object of this class is initialized, use MaxHP, name, and DR (if any)'''
     def __init__(self, **kwargs):
-        self.MaxHP = kwargs.get("MaxHP", 0)
-        self.DR = kwargs.get("DR", 0)
-        self.Buffs = None
+        self._MaxHP = kwargs.get("MaxHP", 0)
+        self._Effects = []
 
     @property
     def MaxHP(self):
@@ -17,9 +17,13 @@ class Character:
         self._MaxHP = newHP
 
     @property
-    def DR(self):
-        return self._DR
+    def Effects(self):
+        return self._Effects
     
-    @DR.setter
-    def DR(self, newDR):
-        self._DR = newDR
+    @Effects.setter
+    def Effects(self, **kwargs):
+        new_effect = effects.Effect(**kwargs)
+        self._Effects.append(new_effect)
+
+    def update_Effects(self):
+        pass
